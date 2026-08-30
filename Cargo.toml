@@ -1,0 +1,10 @@
+[workspace]
+resolver = "3"
+members = ["bin/rye-api", "crates-api/rye-api", "crates/core/rye-crypto","crates/definitions/block-types","crates/definitions/ryefield-types", "crates/nightshade-almac", "networking/ryenetworking"]
+
+[package]
+name = "ryeblockchain"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]

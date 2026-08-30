@@ -1,0 +1,8 @@
+[package]
+name = "ryefield-types"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+fixedstr = {version="0.5.11", features=["serde"]}
+serde = {version="1.0.0", features=["derive"]}

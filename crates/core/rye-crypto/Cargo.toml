@@ -1,0 +1,10 @@
+[package]
+name = "rye-crypto"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+# /silene/Crypto
+libslug = "0.13.0"
+openinternetcryptographykeys = "0.3.0"
+slugencode = "0.1.0"
